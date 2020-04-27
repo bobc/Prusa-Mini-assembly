@@ -1,0 +1,75 @@
+Quantity,Class,Type,Spec,Spec2,Spec3,Spec4
+1,printed, MINI-y-plate-front.stl
+1,printed, MINI-y-plate-rear.stl
+4,part, smooth rod,D=8mm,len=279mm
+2,part, mech, 3030 profile, len=262
+2,part, Motor, Nema17
+21,part, bolt, M3x12 cap bolt
+2,part, pulley, GT2 16T
+12,part, bolt, M5x20r button head
+3,part, nut, M3 T-nut for 3030 profile
+11,part, nut, M3nN nyloc nut
+1,printed, MINI-y-idler.stl
+2,part, bearing, 623h smooth idler
+13,part, bolt, M3x20 cap bolt
+26,part, nut, M3 square nut
+2,part, belt, GT2, len=495mm
+1,mech, mini-y-carriage.stl
+3,part, bearing, LM8UU linear bearing
+3,part, bolt, U-bolt, M3, inside_diam=17mm, inside_len=23mm
+1,printed, MINI-y-belt-holder.stl
+19,part, bolt, M3x8 cap bolt
+1,part, PCB,Magnetic heatbed Mini
+1,printed, MINI-heatbed-cable-cover-bottom.stl
+1,printed, MINI-heatbed-cable-cover-top.stl
+1,part, bolt, M3x14 cap bolt
+9,part, spacer, threaded hex spacer, M3, len=6mm
+9,part, bolt, M3x4 countersunk Torx low profile
+1,printed, MINI-z-top.stl
+1,printed, MINI-z-bottom.stl
+1,printed, MINI-z-bottom-cover.stl
+1,printed, MINI-z-bottom-cable-cover.stl
+5,part, bolt, M3x18 cap bolt
+10,part, bolt, M3x25 cap bolt
+2,part, bolt, M3x40 cap bolt
+1,part, PCB,Buddy board
+10,part, nut, M3 nut
+2,part, smooth rod,D=10mm,len=341mm
+1,part, mech, 3030 profile, len=289
+1,mech, mini-z-plate-bottom.stl
+1,part, Motor, Nema17, leadscrew=TR8x4, 210mm
+1,printed, MINI-z-carriage-rear.stl
+1,printed, MINI-z-carriage-front.stl
+1,part, Motor, Nema17, 40mm
+2,part, bearing, LM10LUU
+1,part, nut, trapezoidal T8x2
+4,part, bolt, M3x30 cap bolt
+1,printed, MINI-extruder-front.stl
+1,printed, MINI-extruder-idler.stl
+1,printed, MINI-inspection-door.stl
+1,printed, MINI-extruder-rear.stl
+1,part, spring, OD=7mm, len=32mm
+3,part, bearing, 625Z
+1,part, shaft, OD=4.9,len=12mm
+1,part, gear, extruder gear (large)
+1,part, gear, extruder gear (small)
+2,part, Bowden compression fitting
+2,part, bearing, LM8UU
+1,printed, MINI-x-end.stl
+1,printed, MINI-x-carriage.stl
+1,printed, MINI-fan-spacer.stl
+1,printed, MINI-fan-spacer-clip.stl
+1,printed, MINI-minda-holder.stl
+1,part, fan, axial 40x10mm, 24V
+1,part, fan, radial 5015, 24V
+1,part, Mini heatsink
+1,part, heater block, Mini heater block
+1,part, Mini heatbreak
+1,part, nozzle, 0.4mm
+1,part, MINDA, height probe
+3,part, bolt, M3x6 cap bolt
+1,printed, MINI-display-box.stl
+1,printed, MINI-knob.stl
+1,part, PCB, Mini display
+1,part, cable, display 14 way flat
+233

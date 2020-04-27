@@ -158,7 +158,7 @@ module hotend_assembly ()
     // heater block sub-assembly
    
     // not the right heater block but close
-    bom_ref ("nozzle, heater block")
+    bom_ref ("heater block, Mini heater block")
     color ("silver")
     rotate ([0,0,90]) 
     mirror ([1,0,0])

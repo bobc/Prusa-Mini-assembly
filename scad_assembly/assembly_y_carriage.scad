@@ -303,7 +303,7 @@ module assembly_y_carriage(y_carriage_pos = 60)
     part_cap_bolt (3, 8);
 //
     if (show_bed)
-      bom_ref ("PCA, Magnetic heatbed Mini")
+      bom_ref ("PCB,Magnetic heatbed Mini")
       translate ([-23, -39 + y_carriage_pos, 57])
       color ("gray")
       move_stl_to_origin (Heatbed_Mini_PCB_spec, path=prusa_heatbed_path, where = NE);

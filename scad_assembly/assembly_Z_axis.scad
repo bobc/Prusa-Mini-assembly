@@ -248,6 +248,7 @@ module assembly_z_frame (z_pos=90)
     translate ([-BUDDY_v1_0_0_spec[IDX_DIMENSION][DIM_Y],0,0])
     group()
     {
+      bom_ref ("PCB,Buddy board")
       rotate ([0,0,90])
       color("lightgray")
       move_stl_to_origin (BUDDY_v1_0_0_spec, path=prusa_buddy_pcb_path, where=SE);
