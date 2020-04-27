@@ -1,3 +1,5 @@
+![main.png](scad_assembly/main.png)
+
 # Prusa-Mini-assembly
 
 Note : this is WIP and not complete or checked for accuracy.
@@ -19,4 +21,4 @@ OpenSCAD "move_stl_to_origin" derived from : https://github.com/lar3ry/OpenSCAD-
 
 MCAD library is derived from : https://github.com/openscad/MCAD
 
-New works in this repo are license with MIT license.
+New works in this repo that are not otherwise specified are Copyright CC-BY-SA Bob Cousins 2020
