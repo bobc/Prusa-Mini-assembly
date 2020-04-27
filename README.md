@@ -1,5 +1,9 @@
 # Prusa-Mini-assembly
 
+Note : this is WIP and not complete or checked for accuracy.
+
+This repo is "unofficial", I have no connection with Prusa.
+
 This repo contains OpenSCAD scripts which create an assembly for a Prusa Mini. Addtionally, a BOM is derived from the model.
 
 Where available, 3D model files for printed parts, custom mechanical parts, PCBs are original Prusa files from the following repositories:
@@ -11,5 +15,7 @@ Where available, 3D model files for printed parts, custom mechanical parts, PCBs
 Some OpenSCAD files are derived from Mendel90 project : https://github.com/nophead/Mendel90
 
 OpenSCAD "move_stl_to_origin" derived from : https://github.com/lar3ry/OpenSCAD---Move-STL-to-origin
+
+MCAD library is derived from : https://github.com/openscad/MCAD
 
 New works in this repo are license with MIT license.
