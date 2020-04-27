@@ -11,6 +11,7 @@ Where available, 3D model files for printed parts, custom mechanical parts, PCBs
 - https://github.com/prusa3d/Original-Prusa-MINI
 - https://github.com/prusa3d/Heatbed-Mini-PCB
 - https://github.com/prusa3d/Buddy-board-MINI-PCB
+- https://github.com/prusa3d/MKxS-IR-sensor
 
 Some OpenSCAD files are derived from Mendel90 project : https://github.com/nophead/Mendel90
 
