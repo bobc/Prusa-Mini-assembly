@@ -26,7 +26,6 @@ use <../libs/MCAD/metric_fastners.scad>
 
 // Official Prusa parts
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-x-end.scad>
-include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/MINI-z-plate-bottom.scad>
 
 // Project includes
 

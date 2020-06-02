@@ -24,11 +24,11 @@ use <../libs/Common/rmc_cuboids.scad>
 use <../libs/Common/rmc_cylinders.scad>
 use <../libs/Common/rmc_utils.scad>
 
-include <../libs/common/Radial-Cooling-Fan-5015.scad>
+include <../libs/Common/Radial-Cooling-Fan-5015.scad>
 use <../libs/MCAD/hardware.scad>
 use <../libs/MCAD/metric_fastners.scad>
 
-include <../libs/move-STL-to-origin/stl_move_to_origin.scad>
+include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 // Official Prusa parts
 

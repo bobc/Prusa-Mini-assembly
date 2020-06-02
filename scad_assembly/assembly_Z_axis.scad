@@ -37,7 +37,7 @@ include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-bottom-cable-cover.scad>
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-carriage-front.scad>
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-carriage-rear.scad>
 
-include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/MINI-z-plate-bottom.scad>
+include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/mini-z-plate-bottom.scad>
 
 include <../Prusa3d/Buddy-board-MINI-PCB/rev.1.0.0/BUDDY_v1-0-0.scad>
 

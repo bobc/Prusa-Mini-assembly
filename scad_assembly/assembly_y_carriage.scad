@@ -38,7 +38,7 @@ include <../Prusa3d/Original-Prusa-MINI/STL/MINI-y-idler.scad>
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-y-belt-holder.scad>
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-heatbed-cable-cover-top.scad>
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-heatbed-cable-cover-bottom.scad>
-include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/MINI-y-carriage.scad>
+include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/mini-y-carriage.scad>
 include <../Prusa3d/Heatbed-Mini-PCB/rev.03b/Heatbed-Mini-PCB.scad>
 
 // Project includes

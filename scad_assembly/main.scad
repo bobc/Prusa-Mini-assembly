@@ -29,8 +29,8 @@ include <vitamins/smooth_rod.scad>
 // Assemblies
 
 use <assembly_y_carriage.scad>
-use <assembly_x_axis.scad>
-use <assembly_z_axis.scad>
+use <assembly_X_axis.scad>
+use <assembly_Z_axis.scad>
 use <assembly_display.scad>
 
 x_pos = 90; // [0:180]
