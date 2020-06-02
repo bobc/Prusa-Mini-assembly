@@ -32,12 +32,12 @@ use <../libs/MCAD/shapes.scad>
 
 // Official Prusa parts
 
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-y-plate-front.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-y-plate-rear.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-y-idler.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-y-belt-holder.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-heatbed-cable-cover-top.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-heatbed-cable-cover-bottom.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-y-plate-front.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-y-plate-rear.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-y-idler.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-y-belt-holder.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-heatbed-cable-cover-top.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-heatbed-cable-cover-bottom.scad>
 include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/MINI-y-carriage.scad>
 include <../Prusa3d/Heatbed-Mini-PCB/rev.03b/Heatbed-Mini-PCB.scad>
 

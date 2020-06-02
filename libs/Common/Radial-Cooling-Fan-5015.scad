@@ -7,11 +7,11 @@ Radial_Cooling_Fan_5015_spec = [
   [-27.500, 0.000, -25.667],
   ];
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 module draw_Radial_Cooling_Fan_5015 (where=NE)
 {
-    move_stl_to_origin (Radial_Cooling_Fan_5015_spec, path="C:/SCAD_Projects/Common/", where=where);
+    move_stl_to_origin (Radial_Cooling_Fan_5015_spec, path="./", where=where);
 }
 
 // draw_Radial_Cooling_Fan_5015();

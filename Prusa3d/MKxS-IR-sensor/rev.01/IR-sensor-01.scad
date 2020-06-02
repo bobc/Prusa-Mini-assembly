@@ -1,7 +1,7 @@
 // Automatically generated from file: IR-sensor-01.stl
 //
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 show_IR_sensor_01 = false;
 
@@ -17,7 +17,7 @@ IR_sensor_01_spec = [
 
 module draw_IR_sensor_01 (where=NE)
 {
-    move_stl_to_origin (IR_sensor_01_spec, path="C:/git_bobc/Prusa-Mini-assembly/MKxS-IR-sensor/rev.01/", where=where);
+    move_stl_to_origin (IR_sensor_01_spec, path="./", where=where);
 }
 
 if (show_IR_sensor_01)

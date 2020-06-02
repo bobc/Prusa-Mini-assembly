@@ -32,10 +32,10 @@ include <../libs/move-STL-to-origin/stl_move_to_origin.scad>
 
 // Official Prusa parts
 
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-fan-spacer.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-fan-spacer-clip.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-x-carriage.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-minda-holder.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-fan-spacer.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-fan-spacer-clip.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-x-carriage.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-minda-holder.scad>
 include <../Prusa3d/Original-Prusa-MINI/STEP/MECHANICAL PARTS/mini-heatsink.scad>
 
 // Project includes
@@ -151,7 +151,7 @@ module hotend_assembly ()
   color (metal_color)
   translate ([12, 5, 14.4])
   rotate ([0,90,0])
-    draw_mini_heatsink(SW);
+    move_stl_to_origin (mini_heatsink_spec, path=prusa_mech_path, where=SW);
     
   translate ([18, -12, 11])
   group ()

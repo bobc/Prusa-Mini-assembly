@@ -7,11 +7,11 @@ mini_steel_sheet_spec = [
   [-95.000, -102.150, 0.000],
   ];
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 module draw_mini_steel_sheet (where=NE)
 {
-    move_stl_to_origin (mini_steel_sheet_spec, path="C:/github/Original-Prusa-MINI/STEP/MECHANICAL PARTS/", where=where);
+    move_stl_to_origin (mini_steel_sheet_spec, path="./", where=where);
 }
 
 // draw_mini_steel_sheet();

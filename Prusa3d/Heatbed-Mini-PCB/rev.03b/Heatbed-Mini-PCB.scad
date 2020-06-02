@@ -7,11 +7,11 @@ Heatbed_Mini_PCB_spec = [
   [-3.000, -3.000, 0.000],
   ];
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 module draw_Heatbed_Mini_PCB (where=NE)
 {
-    move_stl_to_origin (Heatbed_Mini_PCB_spec, path="C:/github/Heatbed-Mini-PCB/rev.03b/", where=where);
+    move_stl_to_origin (Heatbed_Mini_PCB_spec, path="./", where=where);
 }
 
 // draw_Heatbed_Mini_PCB();

@@ -7,11 +7,11 @@ BUDDY_v1_0_0_spec = [
   [95.702, -130.560, -2.350],
   ];
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 module draw_BUDDY_v1_0_0 (where=NE)
 {
-    move_stl_to_origin (BUDDY_v1_0_0_spec, path="C:/github/Buddy-board-MINI-PCB/rev.1.0.0/", where=where);
+    move_stl_to_origin (BUDDY_v1_0_0_spec, path="./", where=where);
 }
 
 // draw_BUDDY_v1_0_0();

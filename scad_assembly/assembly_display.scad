@@ -23,8 +23,8 @@ include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 use <../libs/MCAD/metric_fastners.scad>
 
 // Official Prusa parts
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-knob.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-display-box.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-knob.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-display-box.scad>
 
 // Project includes
 include <conf/config.scad>

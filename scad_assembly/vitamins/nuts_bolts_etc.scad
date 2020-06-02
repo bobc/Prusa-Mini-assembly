@@ -12,7 +12,7 @@
 
 use <../utils/bom.scad>
 
-use <../utils/utilities.scad>
+use <../utils/Utilities.scad>
 
 // use <../MCAD/metric_fastners.scad>
 // use <../MCAD/shapes.scad>

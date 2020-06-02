@@ -29,10 +29,10 @@ use <../libs/MCAD/metric_fastners.scad>
 
 // Official Prusa parts
 
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-z-bottom.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-z-top.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-z-bottom-cover.scad>
-include <../Prusa3d/Original-Prusa-MINI/STL/Mini-z-bottom-cable-cover.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-bottom.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-top.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-bottom-cover.scad>
+include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-bottom-cable-cover.scad>
 
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-carriage-front.scad>
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-z-carriage-rear.scad>
