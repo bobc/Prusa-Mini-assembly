@@ -1,7 +1,7 @@
-// Automatically generated from file:  MINI-z-bottom.stl
+// Automatically generated from file: MINI-z-bottom.stl
 //
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 show_MINI_z_bottom = false;
 
@@ -17,7 +17,7 @@ MINI_z_bottom_spec = [
 
 module draw_MINI_z_bottom (where=NE)
 {
-    move_stl_to_origin (MINI_z_bottom_spec, path="C:/github/Original-Prusa-MINI/STL/", where=where);
+    move_stl_to_origin (MINI_z_bottom_spec, path="./", where=where);
 }
 
 if (show_MINI_z_bottom)

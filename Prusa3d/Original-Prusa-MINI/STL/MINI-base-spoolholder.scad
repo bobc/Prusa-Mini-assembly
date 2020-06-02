@@ -1,7 +1,7 @@
-// Automatically generated from file:  MINI-base-spoolholder.stl
+// Automatically generated from file: MINI-base-spoolholder.stl
 //
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 show_MINI_base_spoolholder = false;
 
@@ -17,7 +17,7 @@ MINI_base_spoolholder_spec = [
 
 module draw_MINI_base_spoolholder (where=NE)
 {
-    move_stl_to_origin (MINI_base_spoolholder_spec, path="C:/github/Original-Prusa-MINI/STL/", where=where);
+    move_stl_to_origin (MINI_base_spoolholder_spec, path="./", where=where);
 }
 
 if (show_MINI_base_spoolholder)

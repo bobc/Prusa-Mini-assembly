@@ -1,7 +1,7 @@
-// Automatically generated from file:  MINI-x-end.stl
+// Automatically generated from file: MINI-x-end.stl
 //
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 show_MINI_x_end = false;
 
@@ -17,7 +17,7 @@ MINI_x_end_spec = [
 
 module draw_MINI_x_end (where=NE)
 {
-    move_stl_to_origin (MINI_x_end_spec, path="C:/github/Original-Prusa-MINI/STL/", where=where);
+    move_stl_to_origin (MINI_x_end_spec, path="./", where=where);
 }
 
 if (show_MINI_x_end)

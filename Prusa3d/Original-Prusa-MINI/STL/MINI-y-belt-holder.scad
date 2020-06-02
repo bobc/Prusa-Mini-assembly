@@ -1,7 +1,7 @@
-// Automatically generated from file:  MINI-y-belt-holder.stl
+// Automatically generated from file: MINI-y-belt-holder.stl
 //
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 show_MINI_y_belt_holder = false;
 
@@ -17,7 +17,7 @@ MINI_y_belt_holder_spec = [
 
 module draw_MINI_y_belt_holder (where=NE)
 {
-    move_stl_to_origin (MINI_y_belt_holder_spec, path="C:/github/Original-Prusa-MINI/STL/", where=where);
+    move_stl_to_origin (MINI_y_belt_holder_spec, path="./", where=where);
 }
 
 if (show_MINI_y_belt_holder)

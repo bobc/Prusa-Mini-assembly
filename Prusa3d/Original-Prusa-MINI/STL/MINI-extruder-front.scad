@@ -1,7 +1,7 @@
-// Automatically generated from file:  MINI-extruder-front.stl
+// Automatically generated from file: MINI-extruder-front.stl
 //
 
-include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>
+include <../../../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
 show_MINI_extruder_front = false;
 
@@ -17,7 +17,7 @@ MINI_extruder_front_spec = [
 
 module draw_MINI_extruder_front (where=NE)
 {
-    move_stl_to_origin (MINI_extruder_front_spec, path="C:/github/Original-Prusa-MINI/STL/", where=where);
+    move_stl_to_origin (MINI_extruder_front_spec, path="./", where=where);
 }
 
 if (show_MINI_extruder_front)

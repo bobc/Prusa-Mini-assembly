@@ -82,11 +82,17 @@ mod_name   = "draw_%s" % clean_name
 
 full_path = os.getcwd() + os.path.sep
 
+#lib_path = "C:/SCAD_Projects/Move-to-origin"
+#obj_path = full_path.replace (os.path.sep, "/")
+
+lib_path = "../../../libs/Move-STL-to-origin"
+obj_path = "./"
+
 if not spec_only:
   print ("// Automatically generated from file:", sys.argv[1])
   print ("//")
   print ("")
-  print ("include <C:/SCAD_Projects/Move-to-origin/stl_move_to_origin.scad>")
+  print ("include <%s/stl_move_to_origin.scad>" % lib_path)
   print ("")
   print ("show_%s = false;" % clean_name)
   print ("")
@@ -105,7 +111,7 @@ if not spec_only:
   print ("")
   print ("module %s (where=NE)" % mod_name)
   print ("{")
-  print ("    move_stl_to_origin (%s, path=\"%s\", where=where);" % (spec_name, full_path.replace (os.path.sep, "/")))
+  print ("    move_stl_to_origin (%s, path=\"%s\", where=where);" % (spec_name, obj_path))
   print ("}")
   print ("")
   print ("if (show_%s)" % clean_name)
