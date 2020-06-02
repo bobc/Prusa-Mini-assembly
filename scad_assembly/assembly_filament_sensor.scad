@@ -19,11 +19,11 @@
 // External libraries
 use  <../libs/Common/rmc_sections.scad>
 
-include <../libs/move-stl-to-origin/stl_move_to_origin.scad>
+include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
 
-include <../libs/mcad/bearing.scad>
-use <../libs/mcad/metric_fastners.scad>
-use <../libs/mcad/hardware.scad>
+include <../libs/MCAD/bearing.scad>
+use <../libs/MCAD/metric_fastners.scad>
+use <../libs/MCAD/hardware.scad>
 
 // Official Prusa parts
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-fsenzor-box.scad>

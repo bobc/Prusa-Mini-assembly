@@ -20,9 +20,9 @@
 // External libraries
 use  <../libs/Common/rmc_sections.scad>
 
-include <../libs/move-stl-to-origin/stl_move_to_origin.scad>
-include <../libs/mcad/linear_bearing.scad>
-use <../libs/mcad/metric_fastners.scad>
+include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
+include <../libs/MCAD/linear_bearing.scad>
+use <../libs/MCAD/metric_fastners.scad>
 
 // Official Prusa parts
 include <../Prusa3d/Original-Prusa-MINI/STL/Mini-x-end.scad>

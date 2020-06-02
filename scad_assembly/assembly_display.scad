@@ -19,8 +19,8 @@
 
 // External libraries
 use <../libs/Common/rmc_shapes.scad>
-include <../libs/move-stl-to-origin/stl_move_to_origin.scad>
-use <../libs/mcad/metric_fastners.scad>
+include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
+use <../libs/MCAD/metric_fastners.scad>
 
 // Official Prusa parts
 include <../Prusa3d/Original-Prusa-MINI/STL/Mini-knob.scad>

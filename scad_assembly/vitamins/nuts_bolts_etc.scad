@@ -14,8 +14,8 @@ use <../utils/bom.scad>
 
 use <../utils/utilities.scad>
 
-// use <../mcad/metric_fastners.scad>
-// use <../mcad/shapes.scad>
+// use <../MCAD/metric_fastners.scad>
+// use <../MCAD/shapes.scad>
 
 // use <../Common/rmc_cylinders.scad>
 // use <../Common/rmc_shapes.scad>

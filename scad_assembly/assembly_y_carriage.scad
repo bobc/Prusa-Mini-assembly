@@ -24,11 +24,11 @@ use  <../libs/Common/rmc_cylinders.scad>
 use  <../libs/Common/rmc_shapes.scad>
 use  <../libs/Common/rmc_sections.scad>
 
-include <../libs/move-stl-to-origin/stl_move_to_origin.scad>
-include <../libs/mcad/stepper.scad>
-include <../libs/mcad/linear_bearing.scad>
-use <../libs/mcad/metric_fastners.scad>
-use <../libs/mcad/shapes.scad>
+include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
+include <../libs/MCAD/stepper.scad>
+include <../libs/MCAD/linear_bearing.scad>
+use <../libs/MCAD/metric_fastners.scad>
+use <../libs/MCAD/shapes.scad>
 
 // Official Prusa parts
 
@@ -261,7 +261,7 @@ module assembly_y_carriage(y_carriage_pos = 60)
     
     for (p=bearing_pos)
     {
-      bom_ref ("bearing, LM8UU linear bearing")
+      bom_ref ("bearing, LM8UU")
       translate ([0, 0, 40.5])
       translate (p)
       rotate ([-90,0,0])

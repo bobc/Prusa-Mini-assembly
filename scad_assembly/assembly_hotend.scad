@@ -25,8 +25,8 @@ use <../libs/Common/rmc_cylinders.scad>
 use <../libs/Common/rmc_utils.scad>
 
 include <../libs/common/Radial-Cooling-Fan-5015.scad>
-use <../libs/mcad/hardware.scad>
-use <../libs/mcad/metric_fastners.scad>
+use <../libs/MCAD/hardware.scad>
+use <../libs/MCAD/metric_fastners.scad>
 
 include <../libs/move-STL-to-origin/stl_move_to_origin.scad>
 
@@ -102,6 +102,7 @@ module part_MINDA()
 
 
 module hotend_assembly ()
+  bom_assembly("Hotend")
 {
   // X carriage rear
   color (printed_color_base)

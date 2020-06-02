@@ -20,12 +20,12 @@
 use <../libs/Common/rmc_sections.scad>
 use <../libs/Common/rmc_cylinders.scad>
 
-include <../libs/move-stl-to-origin/stl_move_to_origin.scad>
-include <../libs/mcad/stepper.scad>
-include <../libs/mcad/bearing.scad>
-use <../libs/mcad/metric_fastners.scad>
-use <../libs/mcad/hardware.scad>
-use <../libs/mcad/gears.scad>
+include <../libs/Move-STL-to-origin/stl_move_to_origin.scad>
+include <../libs/MCAD/stepper.scad>
+include <../libs/MCAD/bearing.scad>
+use <../libs/MCAD/metric_fastners.scad>
+use <../libs/MCAD/hardware.scad>
+use <../libs/MCAD/gears.scad>
 
 // Official Prusa parts
 include <../Prusa3d/Original-Prusa-MINI/STL/MINI-extruder-front.scad>
